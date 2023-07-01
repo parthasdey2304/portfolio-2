@@ -8,10 +8,10 @@
 
     <body>
         <main>
-            <section class="w-full h-screen bg-black background">
+            <section class="w-full h-screen bg-gradient-to-b from-violet-900 to-black background">
                 <div class="w-full h-full flex-col space-y-5">
                     
-                    <nav class="border-gray-200 bg-black px-11 home">
+                    <nav class="border-gray-200 px-11 home">
                         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                         <a href="#" class="flex items-center">
                             <span class="self-center text-3xl font-extrabold text-white font-mono whitespace-nowrap tracking-tight">Port<span class="text-blue-600">folio.</span></span>
@@ -21,7 +21,7 @@
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                         </button>
                         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                            <ul class="font-medium flex flex-col p-4  md:p-0 mt-6 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black">
+                            <ul class="font-medium flex flex-col p-4  md:p-0 mt-6 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
                             <li>
                                 <a href="#home" class="block py-2 text-white font-mono font-bold text-md bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0" aria-current="page">Home</a>
                             </li>
@@ -67,16 +67,103 @@
                 </div>
             </section>
 
-            <section class="w-full h-screen bg-blue-600">
+            <section class="w-full h-screen bg-white about">
+                <div class="w-full h-full flex-col justify-center text-black">
+                    <div class="w-full flex justify-center">
+                        <p class="text-3xl font-mono font-bold   pt-20">About Me</p>
+                    </div>
 
+                    <div class="flex space-x-3 justify-center">
+                        <div class="w-10 h-0.5 border bg-black border-black rounded-3xl mt-3"></div>
+                        <p class="font-mono font-bold text-blue-600"> who am I </p>
+                        <div class="w-10 h-0.5 border bg-black border-black rounded-3xl mt-3"></div>
+                    </div>
+
+                    <div class="w-full flex justify-start mt-10">
+                        <div class="w-[40%] h-full p-10">
+                            <img src="../static/img/hacker.png" alt="hacker image" class="border border-black bg-black rounded-xl">
+                        </div>
+
+                        <div class="w-[60%] h-full flex-col pt-20 px-14">
+                            <div class="font-mono font-semibold text-xl">I'm Parth and I'm a <span class="text-blue-700">Software Engineer</span></div>
+
+                            <div class="text-sm mt-4">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse voluptatem labore incidunt laudantium quasi soluta quia dolorum beatae est eius? Quaerat velit voluptates exercitationem enim doloribus, aliquid, necessitatibus earum ipsam quibusdam officia eligendi natus odit facilis, repudiandae commodi. Reiciendis, perspiciatis similique, mollitia facere deleniti alias, eveniet autem qui dolor esse quas. Accusantium vitae quasi illo, deleniti natus at, vel beatae corporis animi repudiandae voluptatibus recusandae, necessitatibus aut ipsa alias eius?
+                            </div>
+
+                            <div>
+                                <a class="mt-8 border-2 border-blue-600 bg-blue-600 text-white px-7 py-2 rounded-md text-xl font-mono hover:bg-white hover:text-blue-600 hover:duration-500 hover:transition" id="hire_me" type="button" download="true" href="#" target="_blank">Download CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
-            <section class="w-full h-screen bg-green-600">
+            <section class="w-full h-screen bg-black">
+                <div class="w-full h-full flex-col justify-center text-white">
+                    <div class="w-full flex justify-center">
+                        <p class="text-3xl font-mono font-bold   pt-20">My services</p>
+                    </div>
 
+                    <div class="flex space-x-3 justify-center">
+                        <div class="w-10 h-0.5 border bg-white border-white rounded-3xl mt-3"></div>
+                        <p class="font-mono font-bold text-blue-600"> what i learned </p>
+                        <div class="w-10 h-0.5 border bg-white border-white rounded-3xl mt-3"></div>
+                    </div>
+
+                    <div class="w-full h-full p-10 flex space-x-5 justify-between">
+                        <div class="flex-col rounded-xl bg-zinc-800 h-72 mt-12">
+                            <div class="w-full h-20">
+
+                            </div>
+
+                            <div class="w-full h-10 flex justify-center">
+                                <p class="text-2xl font-mono">Web Design</p>
+                            </div>
+
+                            <div class="text-sm p-4 text-center font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae deleniti error facere quis facilis consequatur autem iusto minima provident voluptates.</div>
+                        </div>
+
+                        <div class="flex-col rounded-xl bg-zinc-800 h-96">
+                            <div class="w-full h-20">
+
+                            </div>
+
+                            <div class="w-full h-10 flex justify-center">
+                                <p class="text-2xl font-mono">Programming</p>
+                            </div>
+
+                            <div class="text-sm p-10 text-center font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ipsa ipsum sint eaque consequatur! Itaque quod accusamus hic ea sed quisquam rerum veritatis libero, accusantium iusto fuga quibusdam, error doloribus fugit corrupti officia ipsam adipisci velit saepe illum enim fugiat..</div>
+                        </div>
+
+                        <div class="flex-col rounded-xl bg-zinc-800 h-72 mt-12">
+                            <div class="w-full h-20">
+
+                            </div>
+
+                            <div class="w-full h-10 flex justify-center">
+                                <p class="text-2xl font-mono">App Design</p>
+                            </div>
+
+                            <div class="text-sm p-4 text-center font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae deleniti error facere quis facilis consequatur autem iusto minima provident voluptates.</div>
+                        </div>
+
+                    </div>
+                </div>
             </section>
 
-            <section class="w-full h-screen bg-red-600">
+            <section class="w-full h-screen bg-white">
+                <div class="w-full h-full flex-col justify-center text-black">
+                    <div class="w-full flex justify-center">
+                        <p class="text-3xl font-mono font-bold   pt-20">My skills</p>
+                    </div>
 
+                    <div class="flex space-x-3 justify-center">
+                        <div class="w-10 h-0.5 border bg-black border-black rounded-3xl mt-3"></div>
+                        <p class="font-mono font-bold text-blue-600"> what i know </p>
+                        <div class="w-10 h-0.5 border bg-black border-black rounded-3xl mt-3"></div>
+                    </div>
+                </div> 
             </section>
 
             <section class="w-full h-screen bg-emerald-600">
@@ -88,6 +175,6 @@
             </section>
         </main>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js" async></script>
     </body>
 </html>
